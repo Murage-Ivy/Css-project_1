@@ -1,0 +1,32 @@
+#pitch {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/A1QA94rgGUL._SL1500_.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 480px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: sans-serif;
+  color: white;
+  margin: auto;
+}
+#defence,
+#attack,
+#midfield {
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#lineup {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  border:1px solid red;
+}
